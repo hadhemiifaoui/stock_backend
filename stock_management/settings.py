@@ -2,14 +2,14 @@ import os
 
 from pathlib import Path
 from datetime import timedelta
-
+#mail config
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'your_email@example.com'
-EMAIL_HOST_PASSWORD = 'your_app_password'
-DEFAULT_FROM_EMAIL = 'Stock Alert <noreply@yourdomain.com>'
+EMAIL_HOST_USER = 'hadhemiifaoui35@gmail.com'
+EMAIL_HOST_PASSWORD = 'ewtk sbcl apod mybm'
+DEFAULT_FROM_EMAIL = 'hadhemiifaoui35@gmail.com'
 
 AUTH_USER_MODEL = 'core.models.User'
 
@@ -164,7 +164,6 @@ PASSWORD_HASHERS = [
     "django.contrib.auth.hashers.ScryptPasswordHasher",
 ]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 
 
 

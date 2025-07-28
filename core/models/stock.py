@@ -80,14 +80,7 @@ class Stock(models.Model):
 
 
 
- # a_commande tet7seb ml stock_virtuelle
-
-
-
-
-
-
-
+     # a_commande tet7seb ml stock_virtuelle
 
     # def save(self, *args, **kwargs):
     #     if not self.pk and Stock.objects.filter(article=self.article).exists():
